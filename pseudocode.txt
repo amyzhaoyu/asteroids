@@ -1,0 +1,14 @@
+asteroids.py
+
+
+Asteroid:
+__init__
+update  - move asteroid across screen
+collide - check for collision with a shot
+	  if asteroid is big, then break into three small asteroids
+	  otherwise it is destroyed
+
+Ship:
+__init__
+update  - get keystate, move/accelerate/decelerate ship, or fire shots as appropriate
+collide - check for collision (with shot or asteroid), if true then game ends
